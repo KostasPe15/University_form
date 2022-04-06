@@ -1,0 +1,89 @@
+    body{
+        background-color: rgb(94, 114, 143);
+    }
+
+    h1{
+        color: black;
+        text-align: center;
+        font-size: 3rem;
+        border: black;
+        border-style: solid;
+        margin: auto;
+        margin-bottom: 20px;
+        background-color: whitesmoke;
+    }
+
+    label{
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+    }
+
+    .wrapper{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    img{
+        max-height: 200px;
+    }
+
+    Button{
+        border: black;
+        border-style: solid;
+        font-size: x-large;
+        font-weight: bold;
+        height: 2.5rem;
+        margin-top: 4.5rem;
+        cursor: pointer;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    input[type=text]{
+        width: 20%;
+        padding: 6px; 
+        border: solid black;
+        font-size: large;
+    }
+
+
+    select{
+        width: 20%;
+        padding: 6px; 
+        border: solid black;
+        font-size: large;
+       
+    }
+
+    @media (max-width: 900px) {
+        Button{
+            height: 4rem;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        Button{
+            height: 2.5rem;
+            margin-top: auto;
+        }
+
+        
+    }
+
